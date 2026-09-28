@@ -9,7 +9,7 @@ from bot.config import settings
 
 genai.configure(api_key=settings.gemini_api_key)
 
-_MODEL_NAME = "gemini-2.0-flash"
+_MODEL_NAME = "gemini-flash-latest"
 
 _RESPONSE_SCHEMA = {
     "type": "object",
